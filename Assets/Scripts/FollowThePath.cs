@@ -16,6 +16,8 @@ public class FollowThePath : MonoBehaviour
     private int waypointIndex = 0;
     private bool collision = false;
 
+    GameObject particle;
+
     // Use this for initialization
     private void Start()
     {
@@ -31,6 +33,20 @@ public class FollowThePath : MonoBehaviour
         {
             // Move Enemy
             Move();
+
+            foreach (Touch touch in Input.touches)
+            {
+                if (touch.phase == TouchPhase.Began)
+                {
+                    // Construct a ray from the current touch coordinates
+                    Ray ray = Camera.main.ScreenPointToRay(touch.position);
+                    if (Physics.Raycast(ray))
+                    {
+                        // Create a particle if hit
+                        Instantiate(particle, transform.position, transform.rotation);
+                    }
+                }
+            }
         }
     }
     
