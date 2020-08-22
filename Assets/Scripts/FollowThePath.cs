@@ -14,6 +14,7 @@ public class FollowThePath : MonoBehaviour
     // Index of current waypoint from which Enemy walks
     // to the next one
     private int waypointIndex = 0;
+    private bool collision = false;
 
     // Use this for initialization
     private void Start()
@@ -26,11 +27,18 @@ public class FollowThePath : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
-        // Move Enemy
-        Move();
+        if (!collision)
+        {
+            // Move Enemy
+            Move();
+        }
     }
+    
+    private void OnCollisionEnter2d(Collision2D collision)
+    {
+        Debug.Log("Collision");
 
+    }
     // Method that actually make Enemy walk
     private void Move()
     {
