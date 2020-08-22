@@ -34,9 +34,10 @@ public class FollowThePath : MonoBehaviour
         }
     }
     
-    private void OnCollisionEnter2d(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D col)
     {
         Debug.Log("Collision");
+        collision = true;
 
     }
     // Method that actually make Enemy walk
