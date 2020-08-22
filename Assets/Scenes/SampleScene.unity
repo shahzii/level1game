@@ -2966,6 +2966,7 @@ GameObject:
   - component: {fileID: 1937884805}
   - component: {fileID: 1937884804}
   - component: {fileID: 1937884803}
+  - component: {fileID: 1937884806}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -3058,3 +3059,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1937884806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937884802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8ba0a159a18654bb5c417c5f7d7ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 223447305}
+  - {fileID: 1001993880}
+  - {fileID: 1646155456}
+  - {fileID: 819349373}
+  - {fileID: 1118662380}
+  - {fileID: 546246885}
+  - {fileID: 676386875}
+  - {fileID: 627861916}
+  - {fileID: 1890269034}
+  - {fileID: 988916795}
+  moveSpeed: 2
