@@ -327,7 +327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429179652}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.41, y: 3.6, z: 0}
+  m_LocalPosition: {x: 4.67, y: 2.46, z: 0}
   m_LocalScale: {x: 0.06279139, y: 0.44374377, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3119,6 +3119,10 @@ PrefabInstance:
       propertyPath: WaterDropsObjects.Array.data[0]
       value: 
       objectReference: {fileID: 55564485}
+    - target: {fileID: 4064339307071467320, guid: 1f9a47a695f72184f96ddc8d0b602c32, type: 3}
+      propertyPath: WaterMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: d5c0106e08a52ab4c89dabe7772d546e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f9a47a695f72184f96ddc8d0b602c32, type: 3}
 --- !u!1 &1646155455
