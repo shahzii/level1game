@@ -17,7 +17,7 @@ public class FollowThePath : MonoBehaviour
     private bool collision = false;
 
     GameObject particle;
-
+    
     // Use this for initialization
     private void Start()
     {
