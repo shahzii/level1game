@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: stone_tile2
+  m_Name: pipe 1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 1a21adcda2bdda74e8ad0c0c06165bc8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 472a470f8b1fb464dbe9a8c06a51bc62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
